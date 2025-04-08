@@ -1,0 +1,98 @@
+.container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: start;
+}
+
+.div-1 {
+    width: 450px;
+    height: 450px;
+    background-color: yellow;
+}
+h2{
+    font-size: 52px;
+    
+}
+.div-2 {
+    width: 450px;
+    height: 450px;
+    background-color: greenyellow;
+}
+
+.div-3 {
+    width: 450px;
+    height: 450px;
+    background-color: green;
+}
+.div-3:hover  {
+   
+    background-color: yellowgreen   ;
+}
+/* 
+1024px
+width: 250px
+height: 250px
+div-1{
+back red}
+div-2 {
+    back yellow
+}
+h2{
+    font-size: 32px;
+    color aqua
+} */
+
+/* 576
+w: 150px
+h150px
+
+color aqua
+font-size: 16px */
+
+@media (max-width: 1024px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div-3{
+        width: 250px;
+        height: 250px;
+        background-color: darkblue;
+    }
+    .div-2{
+        width: 250px;
+        height: 250px;
+        background-color: blueviolet;
+    }
+    .div-1{
+      background-color: red;
+      width: 250px;
+      height: 250px;
+    }
+    h2{
+        color: aqua;
+        font-size: 32px;
+    }
+}
+@media (max-width: 576px){
+    .div-2{
+        background-color: red;
+        width: 150px;
+        height: 150px;
+    }
+    .div-1{
+        width: 150px;
+        height: 150px;
+        background-color: indianred;
+    }
+    .div-3{
+        width: 150px;
+        height: 150px;
+        background-color: black;
+    }
+    h2{
+        color:aqua;
+        font-size: 16px;
+    }
+    
+}
